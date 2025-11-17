@@ -1,8 +1,9 @@
 # Sistem Manajemen Kontak Sederhana (PHP)
 
-Proyek ini merupakan tugas dari Praktikum Percobaan 4 yang berfokus pada penggunaan PHP untuk memproses form dan mengelola data.  
-Dalam percobaan ini saya membuat aplikasi sederhana untuk mengatur data kontak, mulai dari menambah, menampilkan, mengubah, hingga menghapus data (CRUD).  
-Seluruh data disimpan menggunakan session, dan aplikasi juga sudah dilengkapi proses login serta validasi pada form.
+Proyek ini dikerjakan sebagai bagian dari Praktikum PERCOBAAN 4: PHP & Manipulasi Form.  
+Pada percobaan ini, saya membuat aplikasi sederhana untuk mengelola data kontak menggunakan PHP.  
+Fitur yang dibuat mencakup proses tambah, tampil, ubah, dan hapus data (CRUD), serta penyimpanan data menggunakan session.  
+Selain itu, form dilengkapi validasi agar input yang masuk sesuai ketentuan, dan sistem juga memiliki fitur login serta logout untuk membatasi akses.
 
 ---
 
