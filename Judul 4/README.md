@@ -1,33 +1,33 @@
 # Sistem Manajemen Kontak Sederhana (PHP)
 
-Laporan untuk Tugas Akhir pembuatan aplikasi Manajemen Kontak Sederhana menggunakan PHP.  
-Aplikasi Manajemen Kontak Sederhana berfungsi untuk mengelola data kontak melalui proses tambah, edit, dan hapus, dengan penyimpanan data berbasis session.  
-Selain itu, sistem juga dilengkapi validasi form dan mekanisme login/logout untuk membatasi akses pengguna.
+Dokumen ini merupakan laporan untuk Tugas Akhir Praktikum **Judul 4**, yaitu pembuatan aplikasi Manajemen Kontak Sederhana menggunakan PHP.  
+Aplikasi ini dibuat untuk mengelola data kontak dengan fitur tambah, edit, dan hapus. Penyimpanan dilakukan menggunakan session, dan sistem juga dilengkapi validasi form serta login/logout.
 
 ---
 
 ## Dibuat oleh
 Nama : Nadjwa Tasya Safira  
-NPM : 2315061024  
+NPM  : 2315061024  
 Kelas : PPW-E
 
 ---
 
 # Tampilan (Screenshots)
 
-Berikut beberapa tampilan dari aplikasi:
+Berikut beberapa tampilan dari aplikasi yang telah dibuat:
 
 ---
 
 ## 1. Halaman Login
-Digunakan untuk autentikasi sebelum masuk ke sistem.
+Halaman awal untuk masuk ke sistem sebelum mengelola kontak.
 
 ![Login](./Hasil%20Website/Halaman%20Login.png)
 
 ---
 
 ## 2. Dashboard Utama
-Menampilkan daftar kontak yang tersimpan di session.
+Menampilkan daftar kontak yang tersimpan di dalam session.  
+Dari halaman ini pengguna dapat menambah, mengedit, atau menghapus kontak.
 
 ![Dashboard 1](./Hasil%20Website/Dashboard%20Utama-1.png)  
 ![Dashboard 2](./Hasil%20Website/Dashboard%20Utama-2.png)
@@ -35,7 +35,8 @@ Menampilkan daftar kontak yang tersimpan di session.
 ---
 
 ## 3. Form Tambah & Validasi
-Form untuk menambahkan kontak baru dengan pengecekan input.
+Form untuk menambahkan kontak baru.  
+Jika data tidak sesuai, sistem memberikan pesan validasi.
 
 **Contoh validasi email tidak valid:**  
 ![Val Email](./Hasil%20Website/Form%20dan%20Validasi-1%20Email%20tidak%20Valid.png)
@@ -46,27 +47,27 @@ Form untuk menambahkan kontak baru dengan pengecekan input.
 ---
 
 ## 4. Form Edit
-Digunakan untuk mengubah data kontak yang sudah ada.
+Digunakan untuk memperbarui data kontak yang sudah ada.
 
 ![Form Edit](./Hasil%20Website/Form%20&%20Validasi%20-%20Edit.png)
 
-**Perubahan yang berhasil / validasi edit:**  
+**Contoh hasil edit yang berhasil:**  
 ![Edit Perubahan](./Hasil%20Website/Validasi%20-%20Edit%20Perubahan.png)
 
 ---
 
 ## 5. Validasi Hapus
-Sebelum menghapus kontak, sistem menampilkan pesan konfirmasi.
+Sebelum data dihapus, sistem menampilkan pesan konfirmasi sebagai langkah keamanan.
 
 ![Hapus](./Hasil%20Website/Validasi%20-%20Hapus.png)
 
 ---
 
 ## 6. Halaman Logout
-Menandakan bahwa sesi pengguna sudah berakhir.
+Menampilkan informasi bahwa session telah berakhir dan pengguna sudah keluar dari sistem.
 
 ![Logout](./Hasil%20Website/Halaman%20Logout.png)
 
 ---
 
-Terimakasih
+Terima kasih.
